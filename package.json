@@ -1,0 +1,32 @@
+{
+  "name": "wisdom-weave",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@firebase/firestore": "^4.3.2",
+    "firebase": "^10.5.2",
+    "next": "^13.5.3",
+    "quill-delta-to-html": "^0.12.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "^4.11.0",
+    "react-modal": "^3.16.1",
+    "react-quill": "^2.0.0",
+    "react-speech-recognition": "^3.10.0",
+    "regenerator-runtime": "^0.14.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.23.2",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  }
+}
